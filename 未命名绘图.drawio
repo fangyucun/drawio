@@ -1,41 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T08:31:31.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wBs3hAT5avkzuxB2p0Xh" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T09:08:04.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="VWMqSvvsZMxUrEcXdWrN" version="21.7.2" type="github">
   <diagram name="第 1 页" id="aXJIbHj-h9clv2qv0Cih">
-    <mxGraphModel dx="1646" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cRrYS9daiaxYkrsNHYCJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="80" width="480" height="710" as="geometry" />
         </mxCell>
-        <mxCell id="cRrYS9daiaxYkrsNHYCJ-2" value="scrim_behind" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cRrYS9daiaxYkrsNHYCJ-4" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="90" width="460" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cRrYS9daiaxYkrsNHYCJ-4" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="117" width="460" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="cRrYS9daiaxYkrsNHYCJ-5" value="scrim_front" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="146" width="460" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="cRrYS9daiaxYkrsNHYCJ-7" value="keyguard_message_area_container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="760" width="460" height="20" as="geometry" />
+        <mxCell id="cRrYS9daiaxYkrsNHYCJ-7" value="FrameLayout(keyguard_host_view_container)" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="460" height="330" as="geometry" />
         </mxCell>
         <mxCell id="cRrYS9daiaxYkrsNHYCJ-6" value="notification_panel" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="170" y="176" width="460" height="570" as="geometry" />
+          <mxGeometry x="170" y="120" width="460" height="280" as="geometry" />
         </mxCell>
         <mxCell id="cRrYS9daiaxYkrsNHYCJ-9" value="notification_container_parent" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="180" y="226" width="440" height="484" as="geometry" />
-        </mxCell>
-        <mxCell id="cRrYS9daiaxYkrsNHYCJ-21" value="&lt;b&gt;···&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="200" width="440" height="20" as="geometry" />
+          <mxGeometry x="180" y="150" width="440" height="210" as="geometry" />
         </mxCell>
         <mxCell id="cRrYS9daiaxYkrsNHYCJ-22" value="&lt;b&gt;···&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="720" width="440" height="20" as="geometry" />
+          <mxGeometry x="180" y="370" width="440" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cRrYS9daiaxYkrsNHYCJ-23" value="&lt;b&gt;···&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="126" width="440" height="20" as="geometry" />
+        <mxCell id="cRrYS9daiaxYkrsNHYCJ-24" value="notification_stack_scroller" style="whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="420" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cRrYS9daiaxYkrsNHYCJ-24" value="notification_stack_scroller" style="whiteSpace=wrap;html=1;verticalAlign=top;align=right;" vertex="1" parent="1">
-          <mxGeometry x="190" y="250" width="420" height="450" as="geometry" />
+        <mxCell id="cRrYS9daiaxYkrsNHYCJ-25" value="keyguard_header(锁屏状态栏)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRrYS9daiaxYkrsNHYCJ-26" value="keyguard_status_view" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRrYS9daiaxYkrsNHYCJ-27" value="&lt;b&gt;second_screen_root(副屏)&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontColor=#f50505;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRrYS9daiaxYkrsNHYCJ-28" value="keyguard_host_view" style="whiteSpace=wrap;html=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="490" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cRrYS9daiaxYkrsNHYCJ-29" value="keyguard_security_container" style="whiteSpace=wrap;html=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="420" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cRrYS9daiaxYkrsNHYCJ-30" value="password(密码页面)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="400" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
